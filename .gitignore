@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output files (keep directories but not content)
+outputs/images/*.png
+outputs/images/*.jpg
+outputs/videos/*.mp4
+outputs/videos/*.avi
+
+# MediaPipe cache
+.mediapipe/
